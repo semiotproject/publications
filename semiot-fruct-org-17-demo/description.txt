@@ -1,4 +1,4 @@
-Internet of Things Semantic Arduino-based Sensor Device Prototype.
+An implementation of CoAP protocol for Arduino and ESP8266.
 
 The device prototype is a open software and open hardware that implements RFC 7252 Constrained Application Protocol (CoAP) for devices with limited resources to bring Semantic Technologies to the world of the Internet of Things (IoT). Like HTTP for small devices, CoAP is based on the REST model: servers make resources available under a URL, and clients access these resources using methods such as GET, PUT, POST, and DELETE via UDP.
 The main developing library is called microcoap. Microcoap is a small CoAP implementation for microcontrollers, such as Arduino boards. CoAP GET, PUT, POST and DELETE methods are already avaliable in the microcoap implementation. The resource subscribe option, appropriate endpoints setup and additional fixes (such as full-fledged CoAP clients support), which are developing in the project, are required.
